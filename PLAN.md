@@ -90,26 +90,31 @@ learn-actor-model-with-claude/
 └── examples/
     ├── 01-basic-actor/                # 기본 액터 예제
     │   ├── typescript/
+    │   ├── cpp/
     │   ├── csharp/
     │   └── go/
     │
     ├── 02-message-passing/            # 메시지 패싱 예제
     │   ├── typescript/
+    │   ├── cpp/
     │   ├── csharp/
     │   └── go/
     │
     ├── 03-supervision/                # 감독 트리 예제
     │   ├── typescript/
+    │   ├── cpp/
     │   ├── csharp/
     │   └── go/
     │
     ├── 04-game-room/                  # 게임룸 구현 예제
     │   ├── typescript/
+    │   ├── cpp/
     │   ├── csharp/
     │   └── go/
     │
     └── 05-chat-server/                # 채팅 서버 예제
         ├── typescript/
+        ├── cpp/
         ├── csharp/
         └── go/
 ```
@@ -268,6 +273,7 @@ learn-actor-model-with-claude/
 
 ### 사용 언어
 - **TypeScript**: 가장 접근성 좋은 언어로 기본 예제 제공
+- **C++**: CAF (C++ Actor Framework) 활용 예제 - 게임 서버 개발에 최적
 - **C#**: Orleans/Akka.NET 활용 예제
 - **Go**: Proto.Actor 활용 예제
 
