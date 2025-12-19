@@ -112,7 +112,13 @@ learn-actor-model-with-claude/
     │   ├── csharp/
     │   └── go/
     │
-    └── 05-chat-server/                # 채팅 서버 예제
+    ├── 05-chat-server/                # 채팅 서버 예제
+    │   ├── typescript/
+    │   ├── cpp/
+    │   ├── csharp/
+    │   └── go/
+    │
+    └── 06-mmorpg/                     # MMORPG Zone/Shard 아키텍처
         ├── typescript/
         ├── cpp/
         ├── csharp/
@@ -286,6 +292,7 @@ learn-actor-model-with-claude/
 | 03-supervision | 감독 트리와 장애 복구 | 중급 |
 | 04-game-room | 멀티플레이어 게임룸 구현 | 중급 |
 | 05-chat-server | 채팅 서버 구현 | 중급 |
+| 06-mmorpg | MMORPG Zone/Shard 아키텍처 | 고급 |
 
 ---
 
