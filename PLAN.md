@@ -79,13 +79,24 @@ learn-actor-model-with-claude/
 │   │   ├── stateful-vs-stateless.md   # Stateful vs Stateless
 │   │   └── scaling-patterns.md        # 스케일링 패턴
 │   │
-│   └── 09-open-source/
-│       ├── README.md                  # 분석할 오픈소스 목록
-│       ├── caf.md                     # C++ Actor Framework 분석
-│       ├── orleans-repo.md            # Orleans 저장소 분석
-│       ├── akka-repo.md               # Akka 저장소 분석
-│       ├── proto-actor-repo.md        # Proto.Actor 분석
-│       └── game-frameworks.md         # 게임 관련 프레임워크
+│   ├── 09-open-source/
+│   │   ├── README.md                  # 분석할 오픈소스 목록
+│   │   ├── caf.md                     # C++ Actor Framework 분석
+│   │   ├── orleans-repo.md            # Orleans 저장소 분석
+│   │   ├── akka-repo.md               # Akka 저장소 분석
+│   │   ├── proto-actor-repo.md        # Proto.Actor 분석
+│   │   └── game-frameworks.md         # 게임 관련 프레임워크
+│   │
+│   ├── 10-use-cases/                  # 실제 사용 케이스
+│   │   ├── README.md                  # 사용 케이스 개요
+│   │   ├── telecommunications.md      # 통신 시스템 (Ericsson, Erlang)
+│   │   └── gaming.md                  # 게임 서버 (Halo, EVE Online)
+│   │
+│   └── 11-patterns/                   # 디자인 패턴
+│       ├── README.md                  # 패턴 개요 및 목록
+│       ├── event-sourcing.md          # Event Sourcing 패턴
+│       ├── saga.md                    # Saga 패턴 (분산 트랜잭션)
+│       └── anti-patterns.md           # 안티패턴 가이드
 │
 └── examples/
     ├── 01-basic-actor/                # 기본 액터 예제
@@ -348,7 +359,9 @@ learn-actor-model-with-claude/
 
 ### Phase 4: 심화 학습 자료
 11. ⬜ 09-open-source 섹션 작성
-12. ⬜ 예제 코드 작성
+12. ✅ 10-use-cases 섹션 작성 (사용 케이스)
+13. ✅ 11-patterns 섹션 작성 (디자인 패턴)
+14. ⬜ 예제 코드 작성
 
 ---
 
